@@ -9,3 +9,59 @@ Parte_A__p4.md
 Parte_A__p5.md
 Parte_B.md
 Parte_C.md
+# --- Python básico ---
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.dll
+
+# Builds / distribuciones
+build/
+dist/
+.eggs/
+*.egg-info/
+*.egg
+wheels/
+*.whl
+MANIFEST
+
+# Entornos virtuales (¡no subir!)
+.venv/
+venv/
+env/
+ENV/
+.python-version
+pip-log.txt
+pip-wheel-metadata/
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+.profile_default/
+ipython_config.py
+
+# IDE / OS
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Proyecto de ML ---
+# Datos crudos y derivados (mantén tus CSV de ejemplo en src/ si quieres trackearlos)
+data/raw/
+data/processed/
+
+# Modelos y artefactos grandes
+models/*.pkl
+models/*.joblib
+models/*.onnx
+
+# Reportes generados
+reports/figures/
+
+# Logs / temporales
+*.log
+*.tmp
+*.cache
